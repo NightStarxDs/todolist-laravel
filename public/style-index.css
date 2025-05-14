@@ -1,0 +1,150 @@
+* {
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    min-height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    background: linear-gradient(to top, #FBE4D6, blue);
+}
+
+body .container {
+    padding: auto;
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+}
+
+body .title {
+    color: white;
+}
+
+body .card {
+    position: relative;
+    background-color: transparent;
+}
+
+.card .form {
+    position: relative;
+    margin: 0;
+    padding: 0;
+}
+
+.form input {
+    position: relative;
+    width: 400px;
+    height: 30px;
+    border-radius: 8px;
+    border: none;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+    padding-left: 10px;
+}
+
+.form input:focus {
+    outline: white;
+}
+
+.form button {
+    position: absolute;
+    right: 0;
+    top: 0;
+    height: 100%;
+    padding: 0 10px;
+    background: linear-gradient(to top, #FBE4D6, blue);
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 0 8px 8px 0;
+}
+
+.card .counter {
+    width: 412px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.counter p {
+    padding: 1px 5px;
+    background: white;
+    width: 46%;
+    text-align: center;
+    font-size: 13px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+    border-radius: 8px;
+}
+
+.counter .completed {
+    padding: 1px 5px;
+    background: lime;
+    width: 46%;
+    text-align: center;
+    font-size: 13px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+    border-radius: 8px;
+    border: 0;
+    cursor: pointer;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+.counter .pending {
+    padding: 1px 5px;
+    background: red;
+    width: 46%;
+    text-align: center;
+    font-size: 13px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+    border-radius: 8px;
+    border: 0;
+    cursor: pointer;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+.data {
+    position: relative;
+    height: auto;
+    width: 100%;
+    border-radius: 8px;
+    background: white;
+}
+
+.data ul {
+    list-style: none;
+    text-align: left;
+    padding: 0 10px 0 10px;
+    margin: 0;
+}
+
+.data ul li {
+    font-size: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.text p {
+    padding: 0;
+    margin: 0;
+}
+
+.text span {
+    color: gray;
+    font-size: 10px;
+    margin-left: 5px;
+}
+
+.icons .done {
+    pointer-events: none;
+}
+
+.icons a i {
+    padding: 5px;
+}
