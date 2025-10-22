@@ -22,3 +22,6 @@ Run the migration to create the tasks table. The table includes:
 - **CSS Not Loading**: Ensure style-index.css is in the public directory.
 - **Database Errors**: Verify .env database credentials and run php artisan migrate.
 - **Icons Not Displaying**: Ensure an active internet connection for Font Awesom
+
+## Video Demo
+**https://drive.google.com/file/d/1uDb9-_JY6qd67HsGvjdHzit0WJKPWf7S/view?usp=sharing**
